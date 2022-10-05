@@ -1,0 +1,37 @@
+.studentExams {
+    background-color: rgb(205, 237, 255);
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 350px;
+}
+
+img {
+    width: 350px;
+
+}
+
+.studentData {
+    margin: 15px;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+.studentData p:not(#name, #avg) {
+    color: rgb(0, 162, 255);
+}
+
+#name, #avg {
+    color: rgb(0, 77, 150);
+}
+
+#name {
+    font-size: 1.5em;
+
+}

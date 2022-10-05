@@ -1,0 +1,31 @@
+:root {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.header {
+  background-color: #000;
+  color: #fff;
+  font-weight: 800;
+  padding: 10px;
+  font-size: 2em;
+}
+
+.router {
+  background-color: #ddd;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+
+.router a {
+  margin: 10px;
+  font-size: 1.4em;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
+
+.router a:hover {
+  color: rgb(0, 162, 255);
+  transition: 0.2s;
+}
